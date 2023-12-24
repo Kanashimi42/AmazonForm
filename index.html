@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-wrapper">
+        <a href="#" class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/603px-Amazon_logo.svg.png?20220213013322" alt="" class="logo__img"></a>
+        <div class="wrapper">
+            <h1 class="wrapper__title">Create account</h1>
+            <form class="form" id="signUp" action="#" method="post">
+                <label class="form__label" for="name">Your name</label>
+                <input class="form__input" type="text" name="name" id="name" placeholder="First and last name">
+    
+                <label class="form__label" for="mobile">Mobile number</label>
+                <input class="form__input" type="number" id="mobile">
+    
+                <label class="form__label" for="email">Email</label>
+                <input class="form__input" type="email" id="email">
+    
+                <label class="form__label" for="pass">Password</label>
+                <input class="form__input" type="password" name="pass" id="pass" placeholder="At least 6 characters">
+                <p class="alert-content"><img class="alert-content__img" src="https://static.thenounproject.com/png/2221149-200.png" alt="">Passwords must be at least 6 characters.</p>
+
+                <label class="form__label" for="rePass">Re-enter password</label>
+                <input class="form__input" type="password" name="rePass" id="rePass">
+    
+                <input class="form__button" type="submit" value="Continue">
+            </form>
+            
+            <div class="wrapper__about-text">
+                <p class="wrapper__text">
+                    By creating an account, you agree to Amazon's
+                    <br>
+                    <a href="#" class="wrapper__link"> Conditions of Use</a> and <a href="#" class="wrapper__link">Privacy Notice</a>.
+                </p>
+                <p class="wrapper__text">
+                    Already have an account? <a href="#" class="wrapper__link">Sign in</a>
+                    <br>
+                    Buying for work? <a href="#" class="wrapper__link">Create a free business account</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
